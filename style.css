@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+  }
+  
+  body {
+    background-color: #0b0b0b;
+    color: #fff;
+  }
+  
+  .test{
+    height: 90vh;
+    background: url('https://www.shutterstock.com/image-photo/beautiful-mystical-forest-blue-fog-600nw-1202082955.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+  }
+  
+  .test .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    max-width: 800px;
+  }
+  
+  .test h1 {
+    font-size: 3rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  
+  .test p {
+    font-size: 1.1rem;
+    color: #ccc;
+  }
+  .button{
+    display: flex;
+    filter:drop-shadow(0 0 10px #fffdef);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 40px;
+  }
